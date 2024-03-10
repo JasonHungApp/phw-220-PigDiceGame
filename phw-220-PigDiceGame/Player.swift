@@ -5,4 +5,7 @@
 //  Created by jasonhung on 2024/3/10.
 //
 
-import Foundation
+enum Player:Int{
+    case player1 = 0
+    case player2 = 1
+}

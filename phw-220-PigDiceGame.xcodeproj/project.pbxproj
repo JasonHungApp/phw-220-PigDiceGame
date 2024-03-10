@@ -13,6 +13,8 @@
 		F3840E332B9C764200A66738 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3840E312B9C764200A66738 /* Main.storyboard */; };
 		F3840E352B9C764400A66738 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3840E342B9C764400A66738 /* Assets.xcassets */; };
 		F3840E382B9C764400A66738 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3840E362B9C764400A66738 /* LaunchScreen.storyboard */; };
+		F3840E402B9CA92E00A66738 /* Dice.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3840E3F2B9CA92E00A66738 /* Dice.swift */; };
+		F3A02ED42B9DBD710092A695 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A02ED32B9DBD710092A695 /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F3840E342B9C764400A66738 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3840E372B9C764400A66738 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3840E392B9C764400A66738 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3840E3F2B9CA92E00A66738 /* Dice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dice.swift; sourceTree = "<group>"; };
+		F3A02ED32B9DBD710092A695 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				F3840E342B9C764400A66738 /* Assets.xcassets */,
 				F3840E362B9C764400A66738 /* LaunchScreen.storyboard */,
 				F3840E392B9C764400A66738 /* Info.plist */,
+				F3840E3F2B9CA92E00A66738 /* Dice.swift */,
+				F3A02ED32B9DBD710092A695 /* Player.swift */,
 			);
 			path = "phw-220-PigDiceGame";
 			sourceTree = "<group>";
@@ -140,6 +146,8 @@
 			files = (
 				F3840E302B9C764200A66738 /* ViewController.swift in Sources */,
 				F3840E2C2B9C764200A66738 /* AppDelegate.swift in Sources */,
+				F3840E402B9CA92E00A66738 /* Dice.swift in Sources */,
+				F3A02ED42B9DBD710092A695 /* Player.swift in Sources */,
 				F3840E2E2B9C764200A66738 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,11 +303,11 @@
 				DEVELOPMENT_TEAM = 3266J6665X;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "phw-220-PigDiceGame/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = PigDiceGame;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,11 +331,11 @@
 				DEVELOPMENT_TEAM = 3266J6665X;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "phw-220-PigDiceGame/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = PigDiceGame;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
