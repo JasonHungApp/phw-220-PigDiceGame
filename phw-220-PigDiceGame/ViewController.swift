@@ -105,14 +105,15 @@ class ViewController: UIViewController {
             showWinnerAlert(activePlayer.rawValue)
             wins[activePlayer.rawValue] += 1
             updateWinsLabels()
-            resetGame()
+            //resetGame()
         } else {
             roundScore = 0
             activePlayer = (activePlayer == .player1) ? .player2 : .player1
             updatePlayerUI()
+            updateRoundInfo()
         }
         
-        updateRoundInfo()
+        
     }
     
     // MARK: - updateUI
@@ -123,6 +124,7 @@ class ViewController: UIViewController {
         roundScore = 0
         activePlayer = .player1 // 重設為第一位玩家
         roundNo = 0
+        updateRoundInfo()
         updatePlayerUI()
     }
 
